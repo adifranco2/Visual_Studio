@@ -1,0 +1,21 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <br>
+    <p>This is a music video for one of my favorite songs.</p>
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/p3G5IXn0K7A"></iframe>
+    <br>
+    <br>
+    <form>
+        <img id="myImage" src="https://www.petmd.com/sites/default/files/styles/article_image/public/CANS_HamsterSign_729603697%20%281%29.jpg?itok=17CQbS7j" />
+        <p>Click button below to move the image to right</p>
+        <input type="button" value="Click Me" onclick="moveRight();" />
+    </form>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
